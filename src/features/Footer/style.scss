@@ -1,0 +1,17 @@
+.footer {
+  height: 7.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footer__text,
+  .footer__link {
+    font-size: 18px;
+    color: #868686;
+  }
+  .footer__text {
+    margin-right: 15px;
+  }
+  .footer__link {
+    border-bottom: 1px dashed #868686;
+  }
+}

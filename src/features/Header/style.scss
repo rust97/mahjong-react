@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  height: 7.5vh;
+  .lucky_moves,
+  .moves_left {
+    font-size: 23px;
+    font-weight: 600;
+    color: #0582ca;
+  }
+}

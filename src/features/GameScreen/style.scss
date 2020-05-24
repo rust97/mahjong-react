@@ -1,0 +1,15 @@
+.game__container {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  .game__cube {
+    display: block;
+    width: 23%;
+    height: 23%;
+    border-radius: 50%;
+  }
+}
